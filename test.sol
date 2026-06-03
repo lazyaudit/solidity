@@ -1,6 +1,5 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
-
 /**
  * @title Big
  * @dev A clean, minimal template demonstrating cryptographic identity and access control.
@@ -14,7 +13,8 @@ contract Big {
     error Unauthorized();
 
     /**
-     * @dev Sets the deployer as the initial owner of the contract.
+     * @dev Sets the deployer as the initial owner of the contract. dot forget initialization
+
      */
     constructor() {
         owner = msg.sender;
